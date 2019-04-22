@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><script src="script.js"> </script>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+<h1> translate </h1>
+<input type="text" id="text" placeholder="enter something to translate">
+<select id="langs">
+    <option value="en-ru" id="russian">russian</option>
+    <option value="en-es">spanish</option>
+    <option value="en-de">german</option>
+    <option value="en-pt"> portuguese</option>
+    <option value="en-eu">basque</option>
+    <option value="en-it"> italian </option>
+    <option value="en-cy"> welsh </option>
+    <option value="en-ht">haitian creole</option>
+    <option value="en-yi">Yiddish</option>
+    <option value="en-sw">Swahili</option>
+    <option value="en-pap"> papiamento</option>
+    <option value="en-mi">maori </option>
+    <option value="en-zh">chinese</option>
+    <option value="en-ja"> japanese</option>
+
+</select>
+<br>
+
+<button id="start" class="w3-button w3-small">translate</button>
+<button id="clear" class="w3-button w3-small"> clear </button>
+<div id="translation"></div>
+</body>
+</html>
